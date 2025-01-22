@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="MyPortfolio.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Nav bar -->
+   <nav class="desktop-nav" style="background-color: black;">
+    <div class="logo">
+        <img src="myLogo.jpg" alt="Larry Cruz">
+    </div> 
+    <div class="topnav">
+            <a class="btn1" href="#aboutMe">About</a>
+            <a class="btn2" href="#services">Services</a>
+            <a href="#contact">Contact</a>
+    </div>
+   </nav>
+ <!-- Home Page -->
+   <section id="profile">
+    
+    <div class="section_text">
+        <h1 class="section_text_greet">Hello,</h1>
+        <h1 class="my_name">I'm Larry</h1>
+        <p class="section_text_p1">UI/UX Designer, Graphics Designer</p>
+        <div class="btn-container">
+            <button class="btn-color-1" onclick="location.href='./#contact'">Hire me</button>
+            <button class="btn-color-2" onclick="window.open('Curriculum-Vitae.pdf')">Download CV</button>
+            
+          </div> 
+    </div>
+    <div class="my-Picture">
+              <img src="noBg.png" alt="My Picture">
+            </div>
+   </section>
+   
+   <section id="aboutMe">
+    <div class="about-container">
+      
+      <!-- Social Media Icons -->
+      <div class="social-icons">
+        <a href="https://web.facebook.com/larrycrz29" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/larry-cruz-127514273/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/larrycrz_/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+  
+      <!-- Image and Text Section -->
+      <div class="image-section">
+        <img src="id.jpg" alt="Profile Picture">
+      </div>
+      
+      <div class="text-section">
+        <h1>About me</h1>
+        <h3>UI/UX Designer, <br> Graphics Designer</h3>
+        <p>
+          Hello! I'm Larry Cruz Jr., a UI/UX and Graphics Designer. Explore my portfolio to see a blend of stunning visuals and user-friendly experiences. Step into a realm where creativity and user-centered design come together seamlessly!
+        </p>
+        <div class="buttons">
+          <button class="btn-color-1" onclick="window.open('Resume.pdf')">View Resume</button>
+          <button class="btn-color-2" onclick="window.open('Curriculum-Vitae.pdf')">Download CV</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services-header">
+      <h1>Services</h1>
+      <p>Step into a world of digital creativity with services that merge visual impact with user-friendly design. Let’s craft experiences that connect and visuals that leave a lasting impression.</p>
+    </div>
+    <div class="services-container">
+      <div class="service-card">
+        <div class="service-number">1</div>
+        <h2>UI/UX Designer</h2>
+        <p>Crafting captivating interfaces that resonate. From wireframes to polished designs, I make sure your digital presence stands out with user-centric creativity.</p>
+        <button class="learn-more" onclick="location.href='#uiux-projects'">Learn More</button>
+      </div>
+      <div class="service-card">
+        <div class="service-number">2</div>
+        <h2>Graphics Designer</h2>
+        <p>As a graphics designer, I create eye-catching visuals that communicate ideas clearly and leave a lasting impression.</p>
+        <button class="learn-more" onclick="location.href='#graphics-projects'">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+   <!-- UIUX Project Section -->
+
+<section id="uiux-projects">
+  <div class="container">
+    <h1 class="section-title">UI/UX Design Projects</h1>
+    <div class="project-cards">
+      <!-- Hospitool Project -->
+      <div class="card">
+        <img src="HospitoolTN.png" alt="Hospitool" class="project-image">
+        <a href="https://www.figma.com/design/LcHnTydFROvJCCHcQjcmUY/Image-1?node-id=0-1&t=Yo5PSVAUi5nLkCwv-1" class="project-link" target="_blank">Hospitool</a>
+        <p>This e-commerce platform is specifically designed for the medical field...</p>
+      </div>
+      <!-- Presys Project -->
+      <div class="card">
+        <img src="PresysTN.jpg" alt="Presys" class="project-image">
+        <a href="https://www.canva.com/design/DAGCLcX571Q/jwIdHySu0qhobkpHtrHcYg/edit?utm_content=DAGCLcX571Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="project-link" target="_blank">Presys</a>
+        <p>This is a proposed design presentation for an online pre-enrollment website...</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Graphics Project Section -->
+
+ <section id="graphics-projects">
+  <div class="container">
+    <h1 class="section-title">Graphics Design Projects</h1>
+    <div class="project-grid">
+      <!-- Row 1 -->
+      <div class="project-item">
+        <div class="image-container">
+          <img src="Bedroom.png" alt="Room Design">
+          <div class="overlay">
+            <p>Room Design - A realistic 3D room modeled and rendered for practical exam.</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="image-container">
+          <img src="Breakfast.png" alt="Table Setup">
+          <div class="overlay">
+            <p>Table Setup - A detailed table design rendered in Blender.</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="image-container">
+          <img src="WineGlass.jpg" alt="Wine Glass">
+          <div class="overlay">
+            <p>Wine Glass - A task performance modeled and rendered in Blender application.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Row 2 -->
+      <div class="project-item large">
+        <div class="image-container">
+          <img src="Campaign Banner.jpg" alt="Campaign Banner">
+          <div class="overlay">
+            <p>Campaign Banner - One of the commissions I made.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-item">
+        <div class="image-container">
+          <img src="Calix.gif" alt="Baptism Invitation">
+          <div class="overlay">
+            <p>Baptism Invitation - This is also one of the commissions I made.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Row 3 -->
+     
+      <div class="project-item large">
+        <div class="image-container">
+          <img src="Congratulations! (2).jpg" alt="Congrats Banner">
+          <div class="overlay">
+            <p>Congratulation Banner - One of my previous commissions.</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+</section>
+
+  <section id="contact">
+    <div class="contact-container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="logo-image">
+              <img src="myLogo.jpg" alt="Larry Cruz">
+            </div>
+            <h1 class="name">LARRY S. CRUZ JR.</h1>
+        </div>
+
+        <!-- Message -->
+        <p class="message">Let’s work together! If you like my work, contact me anytime.</p>
+
+        <!-- Social Media Icons -->
+      
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i> Bulacan
+            </div>
+            <div class="info-item">
+                <i class="fas fa-envelope"></i> larrycruz0204@gmail.com
+            </div>
+            <div class="info-item">
+                <i class="fas fa-phone"></i> 09616045007
+            </div>
+        </div>
+    </div>
+</section>
+
+<button id="back-to-top" title="Go to top">↑</button>
+  
+</body>
+</html>
